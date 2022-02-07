@@ -1,0 +1,25 @@
+
+PS C:\Users\HP\Desktop\ac> npm init
+
+Press ^C at any time to quit.
+package name: (ac) tailwind
+version: (1.0.0)                                                                                                                                              
+description:                                                                                                                                                  
+entry point: (index.js)
+test command:
+git repository:                                                                                                                                               
+keywords:                                                                                                                                                     
+author:                                                                                                                                                       
+license: (ISC)                                                                                                                                                
+
+Is this OK? (yes) yes
+PS C:\Users\HP\Desktop\ac> npm install tailwind
+
+PS C:\Users\HP\Desktop\ac> npx tailwindcss init
+
+Created Tailwind CSS config file: tailwind.config.js
+
+add this line in package.json file:  in dependencies "tailwindcss": "^2.2.16"
+PS C:\Users\HP\Desktop\ac> npx tailwindcss -i ./src/input.css -o ./public/output.css --watch
+Done in 7967ms.
+  
