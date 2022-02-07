@@ -1,4 +1,4 @@
-# Tailwin CSS
+# Tailwind CSS
 I have designed website with html and css only by using Tailwind css. 
 If you want to run it on your device just intsall tailwind css from https://tailwindcss.com/docs/installation.
 First step: run these commands one by one on terminal by pressing ctrl+`
