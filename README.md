@@ -1,13 +1,25 @@
 # Tailwind CSS
 I have designed website with html and css only by using Tailwind css. 
-If you want to run it on your device just intsall tailwind css from https://tailwindcss.com/docs/installation.
-First step: run these commands one by one on terminal by pressing ctrl+`
-  npm install -D tailwindcss
-  npx tailwindcss init
-Now make src folder in your main folder of project and make css file name as input.css and write these lines in input.css file.
-@tailwind base;
+If you want to run it on your device just intsall tailwind css.
+
+Open Visual studio code and open terminal and write this command.
+**'npm init -y'**
+after running this command package.json file will be created.
+
+then run this command on terminal
+**'npm install tailwindcss@2.2.16'**
+now create two folders named as **dest** and ** src**
+add style.css in src folder
+
+add these lines in style.css
+**@tailwind base;
 @tailwind components;
-@tailwind utilities;
-now again go to terminal and start compiling this:
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-if any confusioin visit here :  https://tailwindcss.com/docs/installation.
+@tailwind utilities;**
+
+add this line in scriptts in package,json
+ "build": "tailwind build src/style.css -o dest/styles.css "
+
+Now open terminal and write this command:
+**'npm run build'**
+
+Now tailwind css will be installed in your folder.
