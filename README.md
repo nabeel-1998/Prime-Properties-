@@ -8,7 +8,7 @@ after running this command package.json file will be created.
 
 then run this command on terminal
 **'npm install tailwindcss@2.2.16'**
-now create two folders named as **dest** and ** src**
+now create two folders named as **dest** and **src**
 add style.css in src folder
 
 add these lines in style.css
